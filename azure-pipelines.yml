@@ -6,16 +6,7 @@
 trigger:
 - master
 
-variables:
 
-  # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '68b8dc3e-b719-49c1-9bc4-3e3236ef228c'
-  
-  # Web app name
-  webAppName: 'java-spring-boot-azdev-ops'
-
-  # Agent VM image name
-  vmImageName: 'ubuntu-latest'
 
 
 steps:
